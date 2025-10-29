@@ -1,4 +1,4 @@
-# mediaQuery
+# mediaQuery with flexbox/grid
 
 
 # Step 2: Learn the Bare Minimum, Then Build (Weeks 2-3)
