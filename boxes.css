@@ -1,8 +1,4 @@
-<<<<<<< HEAD
         .box1{
-=======
-.box1{
->>>>>>> dcbdf6d08b9a46cb5c04ce1a59ef75f812a6590c
             background-color: aquamarine;
             border-radius: 10px;
         }
@@ -59,7 +55,6 @@
           grid-template-rows: repeat(3, 100px);
 
           grid-row-gap: 5px;
-          grid-column-gap: 5px;
-            
+          grid-column-gap: 5px;    
         }
         
