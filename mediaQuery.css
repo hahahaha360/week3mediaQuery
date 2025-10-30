@@ -2,19 +2,25 @@
     margin: 0;
     padding: 0;
  }
+ body{
+    background-color: rgb(180, 183, 186);
+    font-family: Arial, sans-serif;
+ }
  .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
  }
  .logo{
-    font-size: 25px;
-    font-family: Helvetica, sans-serif;
+    font-family: Verdana, sans-serif;
     padding: 15px;
-    font-weight: bold;
     margin-left: 50px;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    color: rgb(67, 145, 67);
  }
  .nav-links ul{
     display: flex;
@@ -34,7 +40,7 @@
     display: none;
     flex-direction: column;
     margin-right: 50px;
-    
+
  }
  .bar{
     display: block;
