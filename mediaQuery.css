@@ -3,7 +3,6 @@
     padding: 0;
  }
  body{
-    background-color: rgb(180, 183, 186);
     font-family: Arial, sans-serif;
  }
  .navbar{
@@ -28,6 +27,9 @@
     list-style-type: none;
     margin-right: 50px;
  }
+ .nav-links a:hover{
+    color:rgb(53, 127, 53);
+ }
  .nav-links ul li a{
     text-decoration: none;
     color: black;
@@ -50,11 +52,78 @@
     background-color: black;
  }
 
+         .img{
+            height: 160px;
+            width: 220px;
+            border-radius: 20px;
+            margin-top: 15px;
+        }
+
+        .container{
+          width: 250px;
+          min-height: 290px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0 auto;
+          margin-top: 100px;
+          background: #fff;
+          border-radius: 20px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .txt{
+            text-align: center;
+            margin-top: 10px; 
+            font-size: 12px;
+        }
+        .txt span{
+            opacity: 0.6;
+        }
+        .grid{
+         display: grid;
+         justify-content: center;
+         align-items: center;
+         grid-template-columns: repeat(4, 100px);
+         column-gap: 180px;
+         margin-top: 60px;
+        }
+        
+        .btncart{
+          margin-top: 20px;
+          padding: 10px 10px;
+          border-radius: 10px;
+          background-color: rgb(87, 164, 87);
+          color: white;
+          border: none;
+        }
+        .boxbtn{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 80px;
+        }
+        .boxbtn p{
+          margin-top: 20px;
+        }
+       
+        
+
+
  @media(max-width: 1024px){
     .nav-links{
         display: none;
+    }
+    .navbar{
+      width: 90vh;
+      justify-content: space-between;
     }
     .menu{
         display: block;
     }
  }
+   @media(min-width: 768px){
+      .grid{
+         grid-template-columns: repeat(2, 150px);
+         column-gap: 100px;
+      }
+   }
