@@ -79,12 +79,13 @@
         .txt span{
             opacity: 0.6;
         }
-        .grid{
-         display: grid;
+        .cards{
+         display: flex;
          justify-content: center;
          align-items: center;
-         grid-template-columns: repeat(4, 100px);
-         column-gap: 180px;
+         flex-direction:row;
+         flex-wrap: wrap;
+         gap: 6px;
          margin-top: 60px;
         }
         
@@ -95,6 +96,7 @@
           background-color: rgb(87, 164, 87);
           color: white;
           border: none;
+          cursor: pointer;
         }
         .boxbtn{
           display: flex;
@@ -109,7 +111,7 @@
         
 
 
- @media(max-width: 1024px){
+ @media(max-width: 1200px){
     .nav-links{
         display: none;
     }
@@ -120,10 +122,11 @@
     .menu{
         display: block;
     }
+
  }
-   @media(min-width: 768px){
+   @media(max-width: 950px){
       .grid{
          grid-template-columns: repeat(2, 150px);
          column-gap: 100px;
       }
-   }
+ }
